@@ -12,7 +12,8 @@ che sa far girare esperimenti ML riproducibili, quindi deve capire ogni riga.
 
 ## Ambiente
 
-- Windows, PowerShell, Python 3.12 in `.venv` (attivare con `.\.venv\Scripts\Activate.ps1`).
+- macOS (Apple Silicon), terminale zsh, Python 3.12 (Homebrew) in `.venv`
+  (attivare con `source .venv/bin/activate`).
 - Test: `pytest` dalla cartella principale (`pytest.ini` imposta `pythonpath = .`).
 - Figure: `python -m experiments.<nome_script>`, output in `experiments/figs/`.
 
